@@ -19,6 +19,18 @@
     x = true; //布尔值
     x = false; //另一个布尔值
     x = null; //null 是一个特殊的值
-    x = undefinded //undefinded 和null 值 非常类似
+   // x = undefinded //undefinded 和null 值 非常类似
+    
+    //javascript最重要的类型就是对象
+    //对象名/值对的集合,或字符串到值映射的集合
+    var book = {
+        topic:'javascript',
+        fat:true
+    }
+    //通过 '.' 或者 [] 来访问对象属性
+    console.log(book.topic);   // =>'javascript'
+    console.log(book['fat']); // =>true 另外一种获取属性的方式
+    book.author = 'Flanagan'; //通过赋值创建一个新属性
+    book.contents = {} //{}是一个空对象,他没有任何属性
 </script>
 </html>
